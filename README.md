@@ -1,14 +1,15 @@
 # Terraform
 
-This library hosts multiple solution of few uses cases that I came across.  
-Every folder is a separate solution.
+This library provides multiple solutions for various use cases I have encountered.
+Each folder contains a distinct solution.
 
 ## Installation
 
-Install first [terraform](https://developer.hashicorp.com/terraform/downloads) first.
+![alt text](./terraform.svg)
 
-Get into each folder and initialize terraform.
+Please download the appropriate Terraform installer from [here](https://developer.hashicorp.com/terraform/downloads) and install it.
 
+After installation, navigate to each folder and run folloing command to initialize Terraform.
 
 ```bash
 terraform init
