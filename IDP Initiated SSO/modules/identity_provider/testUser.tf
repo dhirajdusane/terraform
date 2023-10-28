@@ -5,4 +5,9 @@ resource "keycloak_user" "testUser" {
   last_name = "user"
   email = "testuser@mail.com"
   email_verified = true  
+  enabled = true
+  initial_password {
+    value = "12345"
+    temporary = false
+  }
 }
